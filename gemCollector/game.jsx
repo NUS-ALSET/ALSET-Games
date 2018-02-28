@@ -86,7 +86,7 @@ export default class Game extends Component {
 						<Character
 							keys = {this.keyListener1}
 							store = {GameStore}
-							imgSrc = {"assets/character-blonde.png"}
+							imgSrc = {"https://rawgit.com/anirudhvenu/react-game-kit-demos/5f2a5190d08e81d13897db4c63afbcc95f02f3ad/gemCollector/assets/character-blonde.png"}
 							key = {0}
 							index = {0}
 							gameId = {this.props.gameId}
@@ -94,7 +94,7 @@ export default class Game extends Component {
 						<Character
 							keys = {this.keyListener2}
 							store = {GameStore}
-							imgSrc = {"assets/character-brunette.png"}
+							imgSrc = {"https://rawgit.com/anirudhvenu/react-game-kit-demos/5f2a5190d08e81d13897db4c63afbcc95f02f3ad/gemCollector/assets/character-brunette.png"}
 							key = {1}
 							index = {1}
 							gameId = {this.props.gameId}

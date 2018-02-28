@@ -55,7 +55,7 @@ export default class Stone extends Component {
 		<div id={"stoneGem-"+this.props.index+"-"+this.props.gameId} data-id={this.props.index} style={this.getWrapperStyles()}>
 			<TileMap
 			  style={{ top: 0, left:0 }}
-			  src={"assets/gem.png"}
+			  src={"https://rawgit.com/anirudhvenu/react-game-kit-demos/5f2a5190d08e81d13897db4c63afbcc95f02f3ad/gemCollector/assets/gem.png"}
 			  rows={1}
 			  columns={1}
 			  tileSize={64}
